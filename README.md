@@ -5,7 +5,8 @@ Training and validation data are collected using the `mm_train.py` and
 collect examples of pointers and non-pointers.
 
 The script `nn.py` uses Tensorflow to train a neural network and then
-validate its accuracy. To train:
+validate its accuracy. You will need Tensorflow 2 and Keras to run it.
+To train:
 
 ```
 python nn.py train
